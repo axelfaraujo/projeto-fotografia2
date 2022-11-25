@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+
+.header-site{
+    background-image: url(imagens/pexels-roberto-nickson-2559941.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    background-attachment: fixed;
+    color: #fff;
+    width: 100%;
+    font-family: 'Cardo', serif;
+}
+.coluna > h1 {
+    font-size: max(50px, 10vw);
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+
+.coluna1{
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    padding: 40px 0% 5%;
+}
