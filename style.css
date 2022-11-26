@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,600&display=swap');
 
 *{
     padding: 0;
@@ -22,17 +23,31 @@
     width: 100%;
     font-family: 'Cardo', serif;
 }
+
+
 .coluna > h1 {
     font-size: max(50px, 10vw);
-    margin-bottom: 100px;
-    padding-top: 50px;
+    margin-bottom: 20px;
+    padding-top: 60px;
 }
 
 
-.coluna1{
+.coluna1,
+.coluna2,
+.coluna3,
+.coluna4{
     text-align: justify;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 15px;
     padding: 40px 0%;
+}
+
+h2,
+h3{
+    font-family: 'Cardo', serif;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
 }
