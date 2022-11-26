@@ -46,8 +46,21 @@
 h2,
 h3{
     font-family: 'Cardo', serif;
+    padding-top: 10px;
 }
 
-p{
+.caption > p{
     font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 1px;
+}
+
+div.thumb{
+    margin-bottom: 2px;
+    margin-top: 45px;
+    padding-bottom: 100px;
+    background-color: rgba(26, 26, 26, 0.13);
+}
+
+.thumb{
+    border-radius: 4px;
 }
